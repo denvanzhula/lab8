@@ -1,0 +1,77 @@
+body{
+	background-color: rgb(66, 173, 181);
+	font-size: 30px;
+	font-family: Comic Sans MS;
+  } 
+
+button{
+	background-color:#008077;
+	border-radius: 5px;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+
+.labels{
+	display:block;
+	margin-bottom:0.25rem;
+	font-size:2rem;
+}
+.inputs{
+	text-align: center;
+	display:block;
+	width:90%;
+	background-color:#98FB98;
+	font-family: Comic Sans MS;
+}
+
+.side{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	width:50%;
+	height:200px;
+}
+
+.randomNumber{
+	display:flex;
+	height: 50px;;
+	width:100px;
+	border-radius:7px;
+	border:2px solid black;
+	background-color:#9000ff;
+	align-items:center;
+	justify-content:center;
+	font-size:50px;
+	
+}
+
+.box{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width: 50px;
+	height: 50px;
+	border:2px solid black;
+	border-radius:100px;
+	background: #41e199;
+    margin-top:20px;
+	font-size:20px;
+	}
+
+#qwerty{
+	text-align: center;
+	}
+
+
+#wrapper{
+	display:flex;
+	flex-direction:column;
+	margin: 0 auto;
+	width:40%;
+	align-items:center;
+	}
+
+#generate_side{
+	display:flex;
+	justify-content:center;
+}
